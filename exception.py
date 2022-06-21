@@ -6,4 +6,5 @@ sentry_sdk.init(
 
 
 if __name__ == '__main__':
-    print(5 / 0)
+    print(5 / 1)
+    print(10 / 0)
